@@ -1,1 +1,5 @@
-// Route stuff goes here
+const note = require('express').Router();
+
+
+
+module.exports = note;
