@@ -29,7 +29,7 @@ In this section, I'll briefly discuss some of the challenges and successes with 
 
 ## Credits
 
-I took the starter code from here, per the assignment instructions: https://github.com/coding-boot-camp/miniature-eureka
+The code featured in the second commit "Starter Code" was taken from the following repo per the assignment instructions: https://github.com/coding-boot-camp/miniature-eureka
 
 I used various learning resources like Stack Overflow and W3 schools to help with random questions I had. 
 
