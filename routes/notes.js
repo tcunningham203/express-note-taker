@@ -7,6 +7,18 @@ note.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
+
+note.delete('/:id', (req, res) => {
+    const myNote = req.params.id;
+    readFromFile('./db/db.json')
+        .then((data) => JSON.parse(data))
+        .then((json) => {
+            const rewrite = json.filter((note) => note.id !== myNote);
+            writeToFile('./db/db.json', rewrite);
+            res.json(`Note Deleted`);
+        });
+});
+
 // The "post" route here was taken directly from the module 11 mini project.
 note.post('/', (req, res) => {
     console.log(req.body);
