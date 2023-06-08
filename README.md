@@ -31,7 +31,7 @@ In this section, I'll briefly discuss some of the challenges and successes with 
 
 The code featured in the second commit "Starter Code" was taken from the following repo per the assignment instructions: https://github.com/coding-boot-camp/miniature-eureka
 
-I used the mini project from Module 11 for guidance on how everything should look. In particular, the fsUtils.js file is ripped directly from that.
+I used the mini project from Module 11 for guidance on how everything should look. In particular, the fsUtils.js file is ripped directly from that. Additionally, the "Get" and "Post" routes were also taken directly from there. In that situation, the contents were modified slightly to fit this project.
 
-I used various learning resources like Stack Overflow and W3 schools to help with random questions I had. 
+I used various learning resources like Stack Overflow and W3 schools to help with random questions I had, in particular the delete fuction.  
 
